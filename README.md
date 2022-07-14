@@ -40,7 +40,7 @@ yes                               # Yes, continue with the operation
 ```
 
 
-Clone disk 1 to 2 using the script clone.sh:
+Clone disk 1 to disk 2 using the script clone.sh:
 ```
 # http://www.futuretech.blinkenlights.nl/disksfiles.html#CLONE
 
