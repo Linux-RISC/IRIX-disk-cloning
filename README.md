@@ -70,3 +70,8 @@ To boot from the second hard disk, run on Command Monitor:
 setenv OSLoadPartition dksc(0,2,0)
 setenv SystemPartition dksc(0,2,8)
 ```
+
+
+Some statistics:
+- clone 9.1 GB to 18.2 GB: 20 minutes
+- clone 18.2 GB to 36 GB: 8.5 minutes (secondary disk is faaaaaast!)
