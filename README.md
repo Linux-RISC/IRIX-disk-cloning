@@ -11,10 +11,12 @@ Boot on single user mode:
 # init s
 ```
 
+
 Create the mount point /disk2 on root directory:
 ```
 # mkdir /disk2
 ```
+
 
 Partition disk 2:
 ```
@@ -36,6 +38,7 @@ Partition disk 2:
   yes                               # Yes, continue with the operation
   /exit                             # Exit fx
 ```
+
 
 Clone disk 1 to 2 using the script clone.sh:
 ```
@@ -60,6 +63,7 @@ dvhtool -v creat ide ide /dev/rdsk/dks0d2vh
 cd /
 umount /disk2
 ```
+
 
 To boot from the second hard disk, run on Command Monitor:
 ```
