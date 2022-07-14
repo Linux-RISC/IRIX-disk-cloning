@@ -20,23 +20,23 @@ Create the mount point /disk2 on root directory:
 
 Partition disk 2:
 ```
-  # fx -x                           # Run fx
-  <Enter>                           # Select dksc
-  <Enter>                           # Select controller 0
-  2                                 # Select drive 2
-  <Enter>                           # Select lun 0
+# fx -x                           # Run fx
+<Enter>                           # Select dksc
+<Enter>                           # Select controller 0
+2                                 # Select drive 2
+<Enter>                           # Select lun 0
   
-  l                                 # Create a new label
-  c                                 # Create a new label
-  a                                 # Create a new label
-  sy                                # Write out the new label
-  ..                                # Return to the main menu
+l                                 # Label menu
+c                                 # Create a new label
+a                                 # All
+sy                                # Write out the new label
+..                                # Return to the main menu
   
-  r                                 # Select repartition option
-  ro                                # Select root drive option
-  <Enter>                           # Select XFS
-  yes                               # Yes, continue with the operation
-  /exit                             # Exit fx
+r                                 # Select repartition option
+ro                                # Select root drive option
+<Enter>                           # Select XFS
+yes                               # Yes, continue with the operation
+/exit                             # Exit fx
 ```
 
 
