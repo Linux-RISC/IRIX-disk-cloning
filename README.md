@@ -1,7 +1,7 @@
 # IRIX-disk-cloning
 IRIX script to clone an IRIX XFS disk
 
-Main reference (it's offline): http://www.futuretech.blinkenlights.nl/disksfiles.html#CLONE
+Main reference (it's currently offline): http://www.futuretech.blinkenlights.nl/disksfiles.html#CLONE
 
 We assume that the first disk is connected to controller 0 with ID 1 and the second disk to the same controller but with ID 2.
 
