@@ -74,5 +74,5 @@ setenv SystemPartition dksc(0,2,8)
 
 Some statistics:
 - clone 9.1 GB to 18.2 GB: 20 minutes
-- clone 18.2 GB to 36 GB: 8.5 minutes (secondary disk is faaaaaast!)
+- clone 18.2 GB to 36.4 GB: 8.5 minutes (secondary disk is faaaaaast!)
 <img src="clone to 36 GB disk.jpg">
