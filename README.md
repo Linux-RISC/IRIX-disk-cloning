@@ -31,6 +31,7 @@ Partition disk 2:
 l                                 # Label menu
 c                                 # Create a new label
 a                                 # All
+..                                # Return to previous menu
 sy                                # Write out the new label
 ..                                # Return to the main menu
   
