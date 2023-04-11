@@ -18,7 +18,8 @@ Please, keep in mind that the only filesystem mounted is / (root). If you have s
 ```
 # init 1
 ```
-All	filesystems are	mounted when using this run level.
+All	filesystems are	mounted when using this run level (1).
+
 
 Create the mount point /disk2 on root directory:
 ```
