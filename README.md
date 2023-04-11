@@ -20,7 +20,6 @@ Please, keep in mind that the only filesystem mounted is / (root). If you have s
 ```
 All	filesystems are	mounted when using this run level (1).
 
-
 Create the mount point /disk2 on root directory:
 ```
 # mkdir /disk2
