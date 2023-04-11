@@ -1,5 +1,7 @@
 <a href="https://www.buymeacoffee.com/rbpiuserf" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
+Last update: 2023/04/11
+
 # IRIX-disk-cloning
 IRIX script to clone an IRIX XFS disk
 
@@ -12,7 +14,11 @@ Boot on single user mode:
 ```
 # init s
 ```
-
+Please, keep in mind that the only filesystem mounted is / (root). If you have several filesystems, please use:
+```
+# init 1
+```
+All	filesystems are	mounted when using this run level (1).
 
 Create the mount point /disk2 on root directory:
 ```
